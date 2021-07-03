@@ -2,3 +2,274 @@
 {
 	display: none;
 }
+
+:root {
+	--font-color-drky: #ac9765; /* dark yellow */
+	--font-color-beige: #f0ebe3; /* beige */
+	--font-color-green: #293a2d; /* dark green */
+}
+
+/* global rules */
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	min-height: 100vh; /* when using a %, it inherits from the parent (html) */
+	font-size: 16px;
+	font-family: 'brandon-grotesque', sans-serif;
+}
+
+/* Mobile Rules */
+
+/* typography Mobile */
+
+h2 {
+	font-size: 1.5rem;
+	line-height: 2.125rem;
+	font-weight: 900;
+	color: var(--font-color-drky);
+}
+
+h3 {
+	font-size: 1rem;
+	line-height: 1.688rem;
+	font-weight: 900;
+	color: var(--font-color-green);
+}
+
+h4 {
+	font-size: 0.5rem;
+	line-height: 1rem;
+	font-weight: 400 ;
+	color: var(--font-color-drky);
+}
+
+p {
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+	font-weight: 400;
+	color: var(--font-color-drky);
+}
+
+/* utility classes for sections */
+
+
+	/* 174px */
+
+		.sec174beige {
+			background-image: url('../images/mobile/bg_text_375x174.jpg');
+			height: 174px;
+		}
+
+		.sec174green {
+			background-image: url('../images/mobile/bg_text_green375x174.jpg');
+			height: 174px;
+		}
+
+		.sec174drky {
+			background-image: url('../images/mobile/bg_text_green375x174.jpg');
+			height: 174px;
+		}
+
+	/* 259px */
+
+		.sec259beige {
+			background-image: url('../images/mobile/bg_text_375x300.jpg');
+			height: 259px;
+		}
+
+		.sec259green {
+			background-image: url('../images/mobile/bg_text_green375x300.jpg');
+			height: 259px;
+		}
+
+	/* 300px */
+
+		.sec300beige {
+			background-image: url('../images/mobile/bg_text_375x300.jpg');
+			height: 300px;
+		}
+
+		.sec300green {
+			background-image: url('../images/mobile/bg_text_green375x300.jpg');
+			height: 300px;
+		}
+
+/* Header */
+
+	header {
+		background-image: url('../images/mobile/header-home-animated-mobile.gif');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 667px;
+		padding: 22px 30px 49px 30px;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+		.nav_menu {
+			position: fixed;
+			width: 100%;
+			padding: 0 30px;
+		}
+
+		.mobile_nav {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.h2_header_mobile {
+			width: 152px;
+			text-align: center;
+			padding-top: 300px;
+			animation: slideUp 1.5s ease-in-out,
+						opacity 2s ease forwards;
+		}
+
+		.btn {
+			font-size: 0.6rem;
+			padding: 10px 20px;
+			background: none;
+			color: var(--font-color-drky);
+			border: 2px solid var(--font-color-drky);
+			animation: slideUp 1.5s ease-in-out 300ms,
+						opacity 2s ease 300ms forwards;
+			opacity: 0;
+		}
+
+		.btn:active {
+			background-color: var(--font-color-drky);
+			color: var(--font-color-green);
+		}
+
+		.scroll_down {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			animation: slideUp 1.5s ease-in-out, opacity 2s ease forwards;
+		}
+
+		.arrow {
+			width: 40%;
+			padding-top: 5px;
+			animation: SlideUpDown 1s ease-in-out infinite alternate,
+						opacity 2s ease forwards;
+		}
+
+
+
+	/* sections */
+
+	section {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 0 50px;
+		text-align: center;
+	}
+
+	section p {
+		padding: 0 10px;
+	}
+
+	/* we are the original detergent */
+
+			.og_detergent h3 {
+				color: var(--font-color-green);
+				padding-bottom: 20px;
+			}
+
+			.created_america h3 {
+				color: var(--font-color-green);
+			}
+
+		.cta_buy > *:not(:last-child) {
+			margin-bottom: 15px;
+		}
+
+		.cta_buy h3 {
+			color: var(--font-color-beige);
+		}
+
+		.scented h3 {
+			color: var(--font-color-drky);
+		}
+
+		footer {
+			display: flex;
+			flex-direction: column;
+			height: 191px;
+
+		}
+
+			.main_footer {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				height: 156px;
+				padding: 0 50px;
+				background-image: url('../images/mobile/bg_text_375x174.jpg');
+			}
+
+				.sitemap {
+					font-size: 0.8rem;
+					color: var(--font-color-drky);
+				}
+				.sitemap li:not(:last-child) {
+					padding-bottom: 10px;
+				}
+
+				.logo_title {
+					width: 120px;
+					text-align: right;
+				}
+
+				.logo_title h3 {
+					padding-bottom: 10px;
+				}
+
+				.logo_title img {
+					width: 70px;
+				}
+
+			.copyright {
+				padding: 5px 0;
+				text-align: center;
+				background-image: url('../images/mobile/bg_text_green375x174.jpg');
+			}
+
+
+	/* animations */
+
+	@keyframes opacity {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+
+	@keyframes slideUp {
+		from {
+			transform: translateY(40px);
+		}
+		to {
+			transform: translateY(0);
+		}
+	}
+
+	@keyframes SlideUpDown {
+		from {
+			transform: translateY(-3px);
+		}
+		to {
+			transform: translateY(3px);
+		}
+	}
