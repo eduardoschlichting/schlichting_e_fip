@@ -589,6 +589,22 @@ button {
 /* MEDIA QUERIES TABLET */
 
 	/* GLOBALS */
+	/* TEXTURES */
+		@media screen and (min-width: 768px) {
+			.bgwhite {
+				background: url('../images/bg-white-1920w.jpg') center no-repeat #fff;
+				background-size: cover;
+			}
+
+			.bggreen {
+				background: url('../images/bg-green-1920w.jpg') center no-repeat #fff;
+				background-size: cover;
+			}
+
+			.bgdrky {
+				background: url('../images/bg-drky-1920w.jpg') center no-repeat #fff;
+				background-size: cover;
+			}
 		/* TYPOGRAPHY */
 
 			@media screen and (min-width: 768px) {
@@ -686,21 +702,6 @@ button {
 
 		section > h2, h3, p {
 			padding: 0 2.5em;
-		}
-
-		.bgwhite {
-			background: url('../images/bg-white-1920w.jpg') center no-repeat #fff;
-			background-size: cover;
-		}
-
-		.bggreen {
-			background: url('../images/bg-green-1920w.jpg') center no-repeat #fff;
-			background-size: cover;
-		}
-
-		.bgdrky {
-			background: url('../images/bg-drky-1920w.jpg') center no-repeat #fff;
-			background-size: cover;
 		}
 	}
 
