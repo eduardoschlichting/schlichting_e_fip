@@ -138,6 +138,10 @@ header {
 			height: 240vh;
 		}
 
+		.whereTo {
+			margin-top: 10em;
+		}
+
 		.whereTo > h2 {
 			padding: 0;
 		}
