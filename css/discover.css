@@ -140,4 +140,13 @@
 			padding: 0 2.5em;
 		}
 
+		.video-cont-disc {
+			position: relative;
+		}
+
+		#discover-video {
+			max-width: 100%;
+
+		}
+
 	}
