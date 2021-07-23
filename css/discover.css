@@ -69,9 +69,13 @@
 			flex-direction: column;
 		}
 
-			.believe_desc {
+		.believe_desc > h3 {
+			padding: 2em 2.5em;
+		}
+
+			/* .believe_desc {
 				height: 12em;
-			}
+			} */
 
 
 /* MEDIA QUERIES */
@@ -123,30 +127,32 @@
 			flex-direction: column;
 			height: 14em;
 		}
-		.believe_cont {
-			display: flex;
-			flex-direction: row;
-		}
 
 		.discover-box {
 			height: 50vh;
 		}
 
-		.believe_desc {
-			height: 80vh;
-			width: 45%;
+
+		.believe_cont {
+			display: flex;
+			flex-direction: row;
+			overflow: hidden;
 		}
+
 		.believe_desc > h3 {
 			padding: 0 2.5em;
 		}
 
-		.video-cont-disc {
-			position: relative;
+		.believe_desc {
+			max-width: 35%;
 		}
 
-		#discover-video {
-			max-width: 100%;
 
+
+
+		#discover-video {
+			width: 65%;
+			margin-bottom: -3px;
 		}
 
 	}

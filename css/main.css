@@ -849,6 +849,12 @@ button {
 				margin-right: 8em;
 				margin-left: 3.5em;
 			}
+
+			.copyright {
+				flex-direction: row;
+				justify-content: space-around;
+			}
+
 		}
 
 		@media screen and (min-width: 1920px) {
