@@ -1,0 +1,173 @@
+@import url('main.css');
+@import url('ourHistory.css');
+@import url('discover.css');
+
+
+header {
+	background-image: url('../images/header-howto-mobile.jpg');
+}
+
+	.header_title {
+		text-align: center;
+
+		margin: 16em auto auto auto;
+	}
+
+	.header_title > h2 {
+		color: var(--font-color-beige);
+		text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+	}
+
+		.menu_btn_burger {
+			background: var(--font-color-drky);
+		}
+
+		/* top and bottom lines */
+
+		.menu_btn_burger::before,
+		.menu_btn_burger::after {
+			background: var(--font-color-drky);
+		}
+
+
+/* sections */
+
+	/* Tide Versatile */
+
+	.tide-versatile {
+		height: 8em;
+	}
+
+		.tide-versatile > h3 {
+			color: var(--font-color-beige);
+		}
+
+	/* how to box */
+
+	.howTo-cont {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.howTo-box {
+		height: 15em;
+		position: relative;
+	}
+
+		.howToImg {
+			position: absolute;
+			bottom: 0;
+		}
+
+			.cold, .he {
+				left: 30px;
+			}
+
+			.hot {
+				left: -20px;
+			}
+
+		.howTo-box > p {
+			text-align: left;
+		}
+			.howTo-box > p:nth-of-type(2) {
+				margin-top: 1em;
+			}
+
+			.howTo-box:nth-of-type(1) > p {
+				padding-right: 4.5em;
+			}
+
+			.howTo-box:nth-of-type(2) > p {
+				padding-left: 6em;
+				padding-right: 2em;
+			}
+
+			.howTo-box:nth-of-type(3) > p {
+				padding-right: 4em;
+				color: var(--font-color-beige);
+			}
+
+	/* MOBILE LANDSCAPE */
+		@media screen and (min-width: 500px){
+			.header_title {
+				margin: 8em auto auto auto;
+			}
+			.howTo-box:nth-of-type(1) > p {
+				padding-right: 10em;
+			}
+
+			.howTo-box:nth-of-type(2) > p {
+				padding-left: 13em;
+				padding-right: 2em;
+			}
+
+			.howTo-box:nth-of-type(3) > p {
+				padding-right: 10em;
+				color: var(--font-color-beige);
+			}
+		}
+
+	/* TABLET */
+
+	@media screen and (min-width: 768px){
+		.howTo-box {
+			height: 18em;
+		}
+	}
+
+	@media screen and (min-width: 1024px){
+
+		header {
+			background-image: url('../images/header-howto-desktop.jpg');
+		}
+
+		.menu_btn_burger {
+			background: var(--font-color-beige);
+		}
+
+		/* top and bottom lines */
+
+		.menu_btn_burger::before,
+		.menu_btn_burger::after {
+			background: var(--font-color-beige);
+		}
+
+		.header_title {
+			margin: auto;
+		}
+
+		/* Tide Versatile */
+
+			.tide-versatile {
+				display: flex;
+				flex-direction: column;
+
+				height: 12em;
+			}
+
+		/* How TO */
+
+		.howTo-box {
+			height: 22em;
+			display: flex;
+			flex-direction: column;
+		}
+
+			.howTo-box:nth-of-type(1) > p {
+				padding-left: 10em;
+				padding-right: 20em;
+			}
+
+			.howTo-box:nth-of-type(2) > p {
+				padding-left: 20em;
+				padding-right: 10em;
+			}
+
+			.howTo-box:nth-of-type(3) > p {
+				padding-left: 10em;
+				padding-right: 20em;
+				color: var(--font-color-beige);
+			}
+
+	}
