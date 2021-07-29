@@ -17,20 +17,20 @@ One of the main requirements was to build some interactivity with JS, including 
 This project was built using the latest web development technologies, and also, for the visuals, Cinema 3D, After Effects and Adobe Premiere were put into work.
 
 ### 3D Elements :moyai:
-	* All the bottles and 3D animations were built using Cinema 4D;
+	- All the bottles and 3D animations were built using Cinema 4D;
 
 ### Visual Effects :clapper:
-	* Both videos present on the page were recorded, edited, colour graded and finished by me, on After Effects and Premiere.
+	- Both videos present on the page were recorded, edited, colour graded and finished by me, on After Effects and Premiere.
 
 
 ### Graphics :framed_picture:
-	* The Tide Brand and labels were drawn and vectorized from scratch.
-		![alt text](images/logo-nav-color.svg "Logo Tide")
-	* Background images were taken from a royalty-free source, edited, and customized to our necessities.
+	- The Tide Brand and labels were drawn and vectorized from scratch.
+
+	- Background images were taken from a royalty-free source, edited, and customized to our necessities.
 
 ### Animations :joystick:
-	* The basic animations were built with @keyframes on css, such as svgs;
-	* Animations triggered on scroll were built using the AOS Library, authorized by Trevor Van Rys;
+	- The basic animations were built with keyframes on css, such as svgs;
+	- Animations triggered on scroll were built using the AOS Library, authorized by Trevor Van Rys;
 		The code snippet is:
 		``` JavaScript
 		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
