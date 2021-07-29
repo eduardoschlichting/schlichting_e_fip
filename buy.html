@@ -15,6 +15,7 @@
 <link rel="stylesheet" href="css/discover.css">
 <link rel="stylesheet" href="css/howTo.css">
 <link rel="stylesheet" href="css/buy.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
 	<title>Tide - Buy Tide</title>
@@ -73,15 +74,16 @@
 			</div>
 
 			<section class="whereTo">
-				<h2>Where to buy Tide</h2>
-				<div class="shop-cont">
+				<h2 class="hidden">Where to Buy</h2>
+				<h2 data-aos="fade-up" data-aos-duration="1500">Where to buy Tide</h2>
+				<div class="shop-cont" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1500">
 					<div class="shop1 bggreen">
 						<h2>LCBO</h2>
 					</div>
-					<div class="shop2 bgdrky">
+					<div class="shop2 bgdrky" data-aos="fade-up" data-aos-delay="250" data-aos-duration="1500">
 						<h2>Beer Store</h2>
 					</div>
-					<div class="shop3">
+					<div class="shop3" data-aos="fade-up" data-aos-delay="450" data-aos-duration="1500">
 						<h2>Directly with Us</h2>
 						<p>* requires ID verification.</p>
 					</div>
@@ -91,6 +93,7 @@
 		</header>
 
 		<section class="promoBuy">
+			<h2 class="hidden">Promo Image Buy</h2>
 			<img src="images/header-howto-mobile.jpg" alt="promo Buy"
 				srcset="images/header-howto-mobile.jpg 375w, images/header-howto-desktop.jpg 1920w" sizes="(min-width: 600px) 1920px, 375px" />
 		</section>
@@ -98,13 +101,14 @@
 		<section class="form">
 
 			<div class="question-cont bgwhite">
-				<h2>Have a question about Tide?</h2>
+				<h2 data-aos="fade-right" data-aos-duration="1500">Have a question about Tide?</h2>
 
-				<h3>Contact us with your Inquiries and we will reply as soon as possible.</h3>
+				<h3 data-aos="fade-right" data-aos-delay="150" data-aos-duration="1500">Contact us with your Inquiries and we will reply as soon as possible.</h3>
 			</div>
 
 			<div class="form-cont bggreen">
-				<form class="form-buy">
+				<h2 class="hidden">Form</h2>
+				<form class="form-buy" data-aos="zoom-out-up" data-aos-delay="200" data-aos-duration="1500">
 					<input type="text" name="User Name" placeholder="Your Name" />
 
 					<input type="email" name="User Email" placeholder="Email Address" />
@@ -127,15 +131,16 @@
 		</section>
 
 
-			<section class="cta_buy bggreen">
-				<h3>Wanna know where to find us?</h3>
+		<section class="cta_buy bggreen">
+			<h1 class="hidden">Call to Action Container</h1>
+			<h3 data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500">Wanna know where to find us?</h3>
 
-				<h4>We are present in all Canada</h4>
+			<h4 data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500">We are present in all Canada</h4>
 
-				<p>We’ve selected the best brewers and cleaners across Canada to host the best detergent in America.</p>
+			<p data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500">We’ve selected the best brewers and cleaners across Canada to host the best detergent in America.</p>
 
-				<button class="btn" onclick="window.location.href='discover.html';">Discover Us</button>
-			</section>
+			<button class="btn" onclick="window.location.href='discover.html';" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500" data-aos-delay="200">Discover Us</button>
+		</section>
 
 
 			<footer class="footer">
@@ -163,7 +168,11 @@
 			</footer>
 	</main>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> <!-- waypoints Library to identify Element on viewport (Trevor Allowed)-->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	  AOS.init();
+	</script>
+
 <script src="js/main.js"></script>
 </body>
 </html>

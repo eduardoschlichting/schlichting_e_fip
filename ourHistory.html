@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="https://use.typekit.net/zye6mfm.css"> <!-- Brandon Grotesque-->
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/ourHistory.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 	<title>Tide - Our History</title>
 
@@ -83,19 +84,19 @@
 			<section class="story-cont">
 			<h2 class="hidden">Our History</h2>
 				<section class="story-box bgwhite">
-					<h3>People had enough of the same aloe and lavanda smell</h3>
+					<h3 data-aos="fade-up" data-aos-offset="50" data-aos-duration="1500">People had enough of the same aloe and lavanda smell</h3>
 				</section>
 
 				<section class="story-box bggreen">
-					<h3>Then, Tide and pilsner urquell’s Creators decided to unite its strengths in 1946</h3>
+					<h3 data-aos="fade-up" data-aos-offset="50" data-aos-duration="1500" data-aos-delay="350">Then, Tide and pilsner urquell’s Creators decided to unite its strengths in 1946</h3>
 				</section>
 
 				<section class="story-box bggreen">
-					<h3>A new product was invented: A unique beer-scented detergent</h3>
+					<h3 data-aos="fade-up" data-aos-offset="50" data-aos-duration="1500" data-aos-delay="150">A new product was invented: A unique beer-scented detergent</h3>
 				</section>
 
 				<section class="story-box bgwhite">
-					<h3>Since then, tide has been America’s #1 detergent.</h3>
+					<h3 data-aos="fade-up" data-aos-offset="50" data-aos-duration="1500" data-aos-delay="350">Since then, tide has been America’s #1 detergent.</h3>
 				</section>
 			</section>
 
@@ -105,13 +106,14 @@
 			</section>
 
 			<section class="cta_buy bggreen">
-				<h3>Wanna know where to find us?</h3>
+				<h1 class="hidden">Call to Action Container</h1>
+				<h3 data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500">Wanna know where to find us?</h3>
 
-				<h4>We are present in all Canada</h4>
+				<h4 data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500">We are present in all Canada</h4>
 
-				<p>We’ve selected the best brewers and cleaners across Canada to host the best detergent in America.</p>
+				<p data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500">We’ve selected the best brewers and cleaners across Canada to host the best detergent in America.</p>
 
-				<button class="btn" onclick="window.location.href='discover.html';">Discover Us</button>
+				<button class="btn" onclick="window.location.href='discover.html';" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500" data-aos-delay="200">Discover Us</button>
 			</section>
 
 
@@ -140,7 +142,11 @@
 			</footer>
 	</main>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> <!-- waypoints Library to identify Element on viewport (Trevor Allowed)-->
-<script src="js/main.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	  AOS.init();
+	</script>
+
+	<script src="js/main.js"></script>
 </body>
 </html>

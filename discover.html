@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/ourHistory.css">
 <link rel="stylesheet" href="css/discover.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 	<title>Tide - Discover Us</title>
 
@@ -88,22 +89,22 @@
 
 		<section class="why_not bgwhite">
 			<h1 class="hidden">Why not?</h1>
-			<h3>A beer-scented detergent? Why?</h3>
-			<p>Why not? It's Tide!</p>
+			<h3 data-aos="fade-up" data-aos-duration="1500">A beer-scented detergent? Why?</h3>
+			<p data-aos="fade-up" data-aos-delay="150" data-aos-duration="1500">Why not? It's Tide!</p>
 		</section>
 
 			<section class="discover-cont">
 			<h2 class="hidden">Discover</h2>
 				<section class="discover-box bgwhite">
-					<p>We created a formula that leave your clothes with the best smell on the world: beer!</p>
+					<p data-aos="fade-up" data-aos-duration="1500">We created a formula that leave your clothes with the best smell on the world: beer!</p>
 				</section>
 
 				<section class="discover-box bgdrky">
-					<p>Using Canadian barley, and Ontarian hops, our detergent is 100% Canadian.</p>
+					<p data-aos="fade-up" data-aos-delay="250" data-aos-duration="1500">Using Canadian barley, and Ontarian hops, our detergent is 100% Canadian.</p>
 				</section>
 
 				<section class="discover-box bggreen">
-					<p>We are proud to be the #1 detergent that has no harm to our earth: Tide is 100% biodegradable.</p>
+					<p data-aos="fade-up" data-aos-delay="450" data-aos-duration="1500">We are proud to be the #1 detergent that has no harm to our earth: Tide is 100% biodegradable.</p>
 				</section>
 
 			</section>
@@ -112,7 +113,7 @@
 				<div class="believe_cont">
 
 					<section class="believe_desc bgwhite">
-						<h3>Still not believe us? Maybe this video changes your mind:</h3>
+						<h3 data-aos="fade-right" data-aos-duration="1500">Still not believe us? Maybe this video changes your mind:</h3>
 					</section>
 
 					<video id="discover-video" src="images/discover_video.mp4" poster="images/placeholder-discover.png" controls></video>
@@ -122,15 +123,16 @@
 
 
 
-			<section class="cta_buy bggreen">
-				<h3>Wanna know where to find us?</h3>
+				<section class="cta_buy bggreen">
+					<h1 class="hidden">Call to Action Container</h1>
+					<h3 data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500">Wanna know where to find us?</h3>
 
-				<h4>We are present in all Canada</h4>
+					<h4 data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500">We are present in all Canada</h4>
 
-				<p>We’ve selected the best brewers and cleaners across Canada to host the best detergent in America.</p>
+					<p data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500">We’ve selected the best brewers and cleaners across Canada to host the best detergent in America.</p>
 
-				<button class="btn" onclick="window.location.href='discover.html';">Discover Us</button>
-			</section>
+					<button class="btn" onclick="window.location.href='discover.html';" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500" data-aos-delay="200">Discover Us</button>
+				</section>
 
 
 			<footer class="footer">
@@ -158,7 +160,11 @@
 			</footer>
 	</main>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> <!-- waypoints Library to identify Element on viewport (Trevor Allowed)-->
-<script src="js/main.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	  AOS.init();
+	</script>
+
+	<script src="js/main.js"></script>
 </body>
 </html>
