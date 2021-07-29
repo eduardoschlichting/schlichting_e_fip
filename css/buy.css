@@ -7,7 +7,7 @@
 
 header {
 	background-image: url('../images/bg-white-1920w.jpg');
-	height: 140vh;
+	height: 58em;
 }
 
 /* Where to */
@@ -135,11 +135,11 @@ header {
 
 	@media screen and (min-width: 500px) {
 		header {
-			height: 240vh;
+			height: 55em;
 		}
 
 		.whereTo {
-			margin-top: 10em;
+			margin-top: 6em;
 		}
 
 		.whereTo > h2 {
@@ -156,7 +156,7 @@ header {
 
 @media screen and (min-width: 768px) {
 	header {
-		height: 110vh;
+		height: 70em;
 	}
 
 	.shop-cont > div {
@@ -167,7 +167,7 @@ header {
 
 @media screen and (min-width: 1024px) {
 	header {
-		height: 70vh;
+		height: 32em;
 	}
 
 	/* menu */
@@ -245,4 +245,15 @@ header {
 				.form-buy {
 					text-align: center;
 				}
+}
+
+@media screen and (min-width: 1280px) {
+	header {
+		height: 40em;
+	}
+
+	.whereTo {
+		margin-top: 10em;
+		margin-bottom: 10em;
+	}
 }
