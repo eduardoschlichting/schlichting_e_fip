@@ -217,6 +217,10 @@ button {
 				transition: all .5s ease-in-out;
 			}
 
+			.blend-difference {
+				mix-blend-mode: difference;
+			}
+
 				.menu_btn_burger {
 					width: 25px;
 					height: 2px;
