@@ -72,15 +72,25 @@ header {
 		}
 
 		.ht-boxes > div > h2 {
+			transition: all .5s;
 			cursor: pointer;
 		}
 
 				.box1 {
 					background-image: url('../images/bg-white-375w.jpg');
+
+				}
+
+				.box1 > h2:hover {
+					color: var(--font-color-green);
 				}
 
 				.box2 {
 					background-image: url('../images/bg-green-375w.jpg');
+				}
+
+				.box2 > h2:hover {
+					color: var(--font-color-beige);
 				}
 
 				.box3 {
@@ -89,9 +99,14 @@ header {
 					.box3 > h2 {
 						color: var(--font-color-green);
 					}
+					.box3 > h2:hover {
+						color: var(--font-color-beige);
+					}
 					.box3 > p {
 						color: var(--font-color-green);
 					}
+
+
 
 	/* TABLET */
 
