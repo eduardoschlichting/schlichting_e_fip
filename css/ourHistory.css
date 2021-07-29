@@ -1,0 +1,58 @@
+@import url('main.css');
+
+/* Story Container */
+
+.story-cont {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+	.story-cont {
+		color: var(--font-color-drky);
+	}
+
+	.story-box {
+		height: 12em;
+		width: 100%;
+	}
+
+	.story-box:nth-of-type(2) > h3, .story-box:nth-of-type(3) > h3 {
+		color: var(--font-color-drky);
+	}
+
+
+@media screen and (min-width: 768px) {
+
+	.story-box {
+		height: 18em;
+	}
+
+	.story-box > h3 {
+		padding: 0 2em;
+	}
+
+	.story-cont {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+
+}
+
+@media screen and (min-width: 1280px) {
+
+	.story-box {
+		height: 80vh;
+		text-align: center;
+	}
+
+	.story-box > h3 {
+		padding: 0 2em;
+	}
+
+	.story-cont {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+
+}
