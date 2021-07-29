@@ -1,6 +1,12 @@
 @import url('main.css');
 
+
+header {
+	background-image: url('../images/header-discover-mobile.jpg');
+}
 /* Story Container */
+
+
 
 .story-cont {
 	display: grid;
@@ -24,6 +30,10 @@
 
 @media screen and (min-width: 768px) {
 
+	header {
+		background-image: url('../images/header-discover-desktop.jpg');
+	}
+
 	.story-box {
 		height: 18em;
 	}
@@ -40,9 +50,20 @@
 
 }
 
+@media screen and (min-width: 1024px) {
+	.header_title {
+		margin: 14em auto;
+		text-align: center;
+	}
+}
+
 /* Media Queries Desktop */
 
 @media screen and (min-width: 1280px) {
+
+	.header_title {
+		margin: 16em auto 14em auto;
+	}
 
 	.story-box {
 		height: 80vh;

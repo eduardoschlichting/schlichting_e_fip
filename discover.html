@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
 <!-- reset comes first -->
 	<link rel="stylesheet" href="css/reset.css">
 
@@ -26,7 +27,7 @@
 				<div class="main_nav">
 
 					<div class="logo_nav">
-						<img src="images/logo-nav-white.png" alt="Logo Nav White">
+						<img src="images/logo-nav-white.png" id="logoNavWhite" alt="Logo Nav White">
 					</div>
 
 					<div class="menu_btn" id="hambBtn">
@@ -40,11 +41,11 @@
 							<nav>
 								<h2 class="hidden">Mobile Navigation</h2>
 								<ul>
-									<li>Home</li>
-									<li>Our History</li>
-									<li>Discover</li>
-									<li>How to Use</li>
-									<li class="btn">Buy</li>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="ourHistory.html">Our History</a></li>
+									<li><a href="discover.html">Discover</a></li>
+									<li><a href="howTo.html">How To Use</a></li>
+									<li class="btn"><a href="buy.html">Buy</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -54,11 +55,11 @@
 						<nav>
 							<h2 class="hidden">Desktop Navigation</h2>
 							<ul>
-								<li>Home</li>
-								<li>Our History</li>
-								<li>Discover</li>
-								<li>How to Use</li>
-								<li class="btn btn_nav">Buy</li>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="ourHistory.html">Our History</a></li>
+								<li><a href="discover.html">Discover</a></li>
+								<li><a href="howTo.html">How To Use</a></li>
+								<li class="btn btn_nav"><a href="buy.html">Buy</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -73,7 +74,7 @@
 
 			<video id="header-discover-video" src="images/infomercial.mp4" muted loop></video>
 
-			<button class="audioPlay" disabled>Play Audio</button>
+			<button class="audioPlay btn" id="audioBtn" disabled>Play Audio</button>
 
 
 			<div class="scroll_down">
@@ -128,7 +129,7 @@
 
 				<p>We’ve selected the best brewers and cleaners across Canada to host the best detergent in America.</p>
 
-				<button class="btn btn_cta">Discover Us</button>
+				<button class="btn" onclick="window.location.href='discover.html';">Discover Us</button>
 			</section>
 
 
@@ -136,11 +137,11 @@
 				<div class="main_footer bgwhite">
 					<div class="sitemap">
 						<ul>
-							<li>Home</li>
-							<li>Our History</li>
-							<li>Discover</li>
-							<li>How to Use</li>
-							<li>Buy</li>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="ourHistory.html">Our History</a></li>
+							<li><a href="discover.html">Discover</a></li>
+							<li><a href="howTo.html">How To Use</a></li>
+							<li><a href="buy.html">Buy</a></li>
 						</ul>
 					</div>
 

@@ -20,6 +20,11 @@ body {
 	overflow-x: hidden;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
 /* Mobile First Rules */
 
 /* typography Mobile */
@@ -167,6 +172,21 @@ button {
 			margin: auto;
 			animation: slideUp 1s ease-out, opacity 2s ease forwards;
 		}
+
+			.header_title > p {
+				padding: 0;
+
+				font-size: 1em;
+			}
+
+			.header_title > a {
+				text-transform: uppercase;
+				position: absolute;
+				top: 10em;
+				left: 50%;
+				transform: translateX(-50%);
+				margin: auto 0;
+			}
 
 	/* Scroll Down */
 
@@ -647,6 +667,11 @@ button {
 				animation: slideUp 1s ease-out, opacity 2s ease forwards;
 			}
 
+			.header_title > p {
+				font-size: 1.5em;
+			}
+
+
 			.btn {
 				font-size: 1rem;
 				padding: 15px 30px;
@@ -734,6 +759,10 @@ button {
 
 		/* HEADER */
 			@media screen and (min-width: 1280px) {
+
+				.header_title > p {
+					font-size: 2em;
+				}
 
 				.menu_btn {
 					display: none;
