@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
+
 <!-- reset comes first -->
 	<link rel="stylesheet" href="css/reset.css">
 
@@ -29,7 +32,7 @@
 				<div class="main_nav">
 
 					<div class="logo_nav">
-						<img src="images/logo-nav-color.svg" alt="Logo Nav White">
+						<img src="images/logo-nav-color.svg" id="logoNavColor" alt="Logo Nav">
 					</div>
 
 					<div class="menu_btn" id="hambBtn">
@@ -43,11 +46,11 @@
 							<nav>
 								<h2 class="hidden">Mobile Navigation</h2>
 								<ul>
-									<li>Home</li>
-									<li>Our History</li>
-									<li>Discover</li>
-									<li>How to Use</li>
-									<li class="btn">Buy</li>
+									<li><a href="index.html">Home</a></li>
+									<li><a href="ourHistory.html">Our History</a></li>
+									<li><a href="discover.html">Discover</a></li>
+									<li><a href="howTo.html">How To Use</a></li>
+									<li class="btn"><a href="buy.html">Buy</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -57,11 +60,11 @@
 						<nav>
 							<h2 class="hidden">Desktop Navigation</h2>
 							<ul>
-								<li>Home</li>
-								<li>Our History</li>
-								<li>Discover</li>
-								<li>How to Use</li>
-								<li class="btn btn_nav">Buy</li>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="ourHistory.html">Our History</a></li>
+								<li><a href="discover.html">Discover</a></li>
+								<li><a href="howTo.html">How To Use</a></li>
+								<li class="btn btn_nav"><a href="buy.html">Buy</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -87,37 +90,30 @@
 		<section class="tide-versatile bggreen">
 			<h1 class="hidden">Tide is Versatile</h1>
 			<h3>That Tide Is Versatile we all Know</h3>
-			<p>But how to use it? We are here to show you!</p>
+			<p>But how to use it? We will show you!</p>
+			<p>Click on each Washing Mode to discover a little bit more of the power of Tide.</p>
+
 		</section>
 
-			<section class="howTo-cont">
-			<h2 class="hidden">How To</h2>
-				<section class="howTo-box bgwhite">
-					<p>Washing on cold water is better for the environment because it saves energy by not using heat.</p>
+			<section class="howTo">
+				<h2 class="hidden">How to Container</h2>
 
-					<p>For cold loads, simply use half a cup of Tide Cold for each 10kg of laundry.</p>
+				<div class="ht-boxes">
+					<div class="box1">
+						<h2 class="clicker" data-info="0">Cold Wash</h2>
+						<p class="infoTide"></p>
+					</div>
 
-					<img class="howToImg cold" src="images/how_to_bottle_cold_375w.png"
-					srcset="images/how_to_bottle_cold_375w.png 375w, images/how_to_bottle_cold_1920w.png 1920w" sizes="(min-width: 768px) 1920px, 375px" alt="How to bottle cold" />
-				</section>
+					<div class="box2">
+						<h2 class="clicker" data-info="1">Hot Wash</h2>
+						<p class="infoTide"></p>
+					</div>
 
-				<section class="howTo-box bggreen">
-					<p>When using on hot water, be careful with the type of clothes that are to be washed. Some pieces might shrink when washed and dried on hot.</p>
-
-					<p>For hot loads, simply use half a cup of Tide Hot for each 10kg of laundry.</p>
-
-					<img class="howToImg hot" src="images/how_to_bottle_hot_375w.png"
-					srcset="images/how_to_bottle_hot_375w.png 375w, images/how_to_bottle_hot_1920w.png 1920w" sizes="(min-width: 768px) 1920px, 375px" alt="How to bottle hot" />
-				</section>
-
-				<section class="howTo-box bgdrky">
-					<p>When using on hot water, be careful with the type of clothes that are to be washed. Some pieces might shrink when washed and dried on hot.</p>
-
-					<p>For hot loads, simply use half a cup of Tide Hot for each 10kg of laundry.</p>
-
-					<img class="howToImg he" src="images/how_to_bottle_he_375w.png"
-					srcset="images/how_to_bottle_he_375w.png 375w, images/how_to_bottle_he_1920w.png 1920w" sizes="(min-width: 768px) 1920px, 375px" alt="How to bottle High Efficiency" />
-				</section>
+					<div class="box3">
+						<h2 class="clicker" data-info="2">High Efficiency</h2>
+						<p class="infoTide"></p>
+					</div>
+				</div>
 
 			</section>
 
@@ -128,7 +124,7 @@
 
 				<p>We’ve selected the best brewers and cleaners across Canada to host the best detergent in America.</p>
 
-				<button class="btn btn_cta">Discover Us</button>
+				<button class="btn" onclick="window.location.href='discover.html';">Discover Us</button>
 			</section>
 
 
@@ -136,11 +132,11 @@
 				<div class="main_footer bgwhite">
 					<div class="sitemap">
 						<ul>
-							<li>Home</li>
-							<li>Our History</li>
-							<li>Discover</li>
-							<li>How to Use</li>
-							<li>Buy</li>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="ourHistory.html">Our History</a></li>
+							<li><a href="discover.html">Discover</a></li>
+							<li><a href="howTo.html">How To Use</a></li>
+							<li><a href="buy.html">Buy</a></li>
 						</ul>
 					</div>
 

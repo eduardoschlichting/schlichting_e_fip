@@ -6,18 +6,14 @@
 
 	/* HEADER */
 
-		header {
-			background-size: 0 0;
-		}
-
 		.header_title {
 			text-align: center;
 
 			margin: auto;
 		}
 
-			.header_title > h2 {
-				visibility: hidden;
+			#header-discover-video, #audioBtn {
+				display: none;
 			}
 
 			.scroll_down > p{
@@ -87,9 +83,6 @@
 }
 
 	@media screen and (min-width: 1024px) {
-		.header_title {
-		 animation: slideLeft 1s ease-out, opacity 2s ease forwards;
-	 }
 
 		/* Discover Container */
 			.discover-cont {
@@ -109,6 +102,16 @@
 
 
 	@media screen and (min-width: 1280px) {
+		header {
+			background-size: 0 0;
+		}
+
+		#header-discover-video, #audioBtn {
+			display: block;
+		}
+		.header_title {
+		 visibility: hidden;
+	 }
 		.desktop_nav, .btn_nav {
 			color: var(--font-color-beige);
 		}

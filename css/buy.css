@@ -183,19 +183,6 @@ header {
 			background: var(--font-color-drky);
 		}
 
-	/*desktop nav */
-
-	.desktop_nav ul > li:hover {
-		color: var(--font-color-green);
-	}
-
-	.desktop_nav, .btn_nav {
-		color: var(--font-color-drky);
-	}
-
-	.btn_nav {
-		border-color: var(--font-color-drky);
-	}
 
 	/* Where to */
 		.shop-cont {
@@ -255,5 +242,19 @@ header {
 	.whereTo {
 		margin-top: 10em;
 		margin-bottom: 10em;
+	}
+
+	/*desktop nav */
+
+	.desktop_nav ul > li:hover {
+		color: var(--font-color-green);
+	}
+
+	.desktop_nav, .btn_nav {
+		color: var(--font-color-drky);
+	}
+
+	.btn_nav {
+		border-color: var(--font-color-drky);
 	}
 }
