@@ -12,6 +12,8 @@
 <link rel="stylesheet" href="https://use.typekit.net/zye6mfm.css"> <!-- Brandon Grotesque-->
 <link rel="stylesheet" href="css/main.css">
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 	<title>Tide - Beer Scented Detergent</title>
 
 </head>
@@ -84,8 +86,8 @@
 
 			<section class="og_detergent bgwhite">
 				<h1 class="hidden">Original Detergent</h1>
-				<h3>We are the original detergent</h3>
-				<p>In 1946, we united with the best beer producers in America to create the first beer scented detergent. Since then Tide has been America’s #1 detergent.</p>
+				<h3 data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500">We are the original detergent</h3>
+				<p data-aos="fade-up" data-aos-offset="0" data-aos-duration="1500" data-aos-delay="150">In 1946, we united with the best beer producers in America to create the first beer scented detergent. Since then Tide has been America’s #1 detergent.</p>
 			</section>
 
 			<section class="created_america">
@@ -93,7 +95,7 @@
 				<div class="promo-home-1"></div>
 
 				<section class="created_america_desc bgwhite">
-					<h3>Created in America the original way</h3>
+					<h3 data-aos="fade-left" data-aos-offset="150" data-aos-duration="1500">Created in America the original way</h3>
 				</section>
 			</section>
 
@@ -103,7 +105,7 @@
 				<div class="promo-home-2"></div>
 
 				<section class="scented_desc bggreen">
-					<h3>Scented with fine hops, selected barley, and pure canadian water</h3>
+					<h3 data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500">Scented with fine hops, selected barley, and pure canadian water</h3>
 				</section>
 			</section>
 
@@ -115,13 +117,13 @@
 
 			<section class="cta_buy bggreen">
 				<h1 class="hidden">Call to Action Container</h1>
-				<h3>Wanna know where to find us?</h3>
+				<h3 data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500">Wanna know where to find us?</h3>
 
-				<h4>We are present in all Canada</h4>
+				<h4 data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500">We are present in all Canada</h4>
 
-				<p>We’ve selected the best brewers and cleaners across Canada to host the best detergent in America.</p>
+				<p data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500">We’ve selected the best brewers and cleaners across Canada to host the best detergent in America.</p>
 
-				<button class="btn" onclick="window.location.href='discover.html';">Discover Us</button>
+				<button class="btn" onclick="window.location.href='discover.html';" data-aos="fade-up" data-aos-offset="150" data-aos-duration="1500" data-aos-delay="200">Discover Us</button>
 			</section>
 
 			<footer class="footer">
@@ -149,7 +151,11 @@
 			</footer>
 	</main>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> <!-- waypoints Library to identify Element on viewport (Trevor Allowed)-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 <script src="js/main.js"></script>
 </body>
 </html>
