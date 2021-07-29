@@ -1,0 +1,143 @@
+@import url('main.css');
+@import url('ourHistory.css');
+
+
+/* Mobile Rules */
+
+	/* HEADER */
+
+		header {
+			background-image: url('../images/header-discover-mobile.jpg');
+		}
+
+		.header_title {
+			text-align: center;
+
+			margin: auto;
+		}
+
+			.header_title > h2 {
+				color: var(--font-color-beige);
+				text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+			}
+
+			.scroll_down > p{
+				color: var(--font-color-beige);
+			}
+
+			.menu_btn_burger {
+				background: var(--font-color-beige);
+			}
+
+			/* top and bottom lines */
+
+			.menu_btn_burger::before,
+			.menu_btn_burger::after {
+				background: var(--font-color-beige);
+			}
+
+	/* WHY NOT? */
+
+		.why_not {
+			height: 8em;
+		}
+
+	/* discover cont */
+
+	.discover-cont {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+		.discover-cont {
+			color: var(--font-color-drky);
+		}
+
+		.discover-box {
+			height: 12em;
+			width: 100%;
+		}
+
+		.discover-box:nth-of-type(2) > p {
+			color: var(--font-color-beige);
+		}
+
+	/* Believe Container */
+
+		.believe_cont {
+			display: flex;
+			flex-direction: column;
+		}
+
+			.believe_desc {
+				height: 12em;
+			}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+	header {
+		background-image: url('../images/header-discover-desktop.gif');
+	}
+}
+
+	@media screen and (min-width: 1024px) {
+		.header_title {
+		 animation: slideLeft 1s ease-out, opacity 2s ease forwards;
+	 }
+
+		/* Discover Container */
+			.discover-cont {
+				grid-template-columns: 1fr 1fr 1fr;
+			}
+
+				.discover-box {
+					text-align: center;
+					height: 35vh;
+				}
+				.discover-box > p {
+					padding: 0 2em;
+				}
+		}
+
+		/* Believe Container */
+
+
+	@media screen and (min-width: 1280px) {
+		.desktop_nav, .btn_nav {
+			color: var(--font-color-beige);
+		}
+
+		.btn_nav {
+			border-color: var(--font-color-beige);
+		}
+
+		.desktop_nav ul > li:last-child:hover {
+			color: var(--font-color-green);
+			background-color: var(--font-color-beige);
+		}
+
+		.why_not {
+			display: flex;
+			flex-direction: column;
+			height: 14em;
+		}
+		.believe_cont {
+			display: flex;
+			flex-direction: row;
+		}
+
+		.discover-box {
+			height: 50vh;
+		}
+
+		.believe_desc {
+			height: 80vh;
+			width: 45%;
+		}
+		.believe_desc > h3 {
+			padding: 0 2.5em;
+		}
+
+	}

@@ -20,6 +20,7 @@
 		color: var(--font-color-drky);
 	}
 
+/* Media Queries Tablet */
 
 @media screen and (min-width: 768px) {
 
@@ -38,6 +39,8 @@
 	}
 
 }
+
+/* Media Queries Desktop */
 
 @media screen and (min-width: 1280px) {
 

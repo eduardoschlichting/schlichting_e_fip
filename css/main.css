@@ -49,7 +49,7 @@ h4 {
 }
 
 p {
-	font-size: 0.875rem;
+	font-size: 1.1rem;
 	line-height: 1.25rem;
 	font-weight: 400;
 	color: var(--font-color-drky);
@@ -80,7 +80,7 @@ button {
 
 	/* Sitemap li */
 		.sitemap ul > li {
-			font-size: 1rem;
+			font-size: 0.85rem;
 			transition: all .5s ease-in-out;
 			cursor: pointer;
 		}
@@ -151,7 +151,7 @@ button {
 		}
 
 		.logo_nav {
-			width: 25%;
+			width: 5em;
 		}
 
 		.desktop_nav {
@@ -161,10 +161,10 @@ button {
 		/* Title */
 
 		.header_title {
-			width: 60%;
+			width: 80%;
 			text-align: center;
 			position: relative;
-			margin: 15em 0 auto 0;
+			margin: auto;
 			animation: slideUp 1s ease-out, opacity 2s ease forwards;
 		}
 
@@ -446,7 +446,7 @@ button {
 				}
 
 				.logo_title h3 {
-					margin: 0;
+					margin-bottom: 10px;
 					padding: 0;
 				}
 
@@ -512,22 +512,22 @@ button {
 
 /* MEDIA QUERIES LANDSCAPE  */
 
-@media screen and (min-width: 500px) {
-	.header_title {
-		width: 60%;
-		text-align: center;
-		position: relative;
-		margin: 8em 0 auto 0;
-		animation: slideUp 1s ease-out, opacity 2s ease forwards;
-	}
+	@media screen and (min-width: 500px) {
+		.header_title {
+			width: 60%;
+			text-align: center;
+			position: relative;
+			margin: auto;
+			animation: slideUp 1s ease-out, opacity 2s ease forwards;
+		}
 
-	.logo_nav {
-		width: 15%;
-	}
+		.logo_nav {
+			width: 6em;
+		}
 
-	.og_detergent, .created_america_desc, .scented_desc {
-		height: 15em;
-	}
+		.og_detergent, .created_america_desc, .scented_desc {
+			height: 15em;
+		}
 
 			.promo-home-1 {
 				background: url('../images/promo-home-1-768w.jpg') center no-repeat;
@@ -550,7 +550,7 @@ button {
 				background-size: cover;
 				height: 10.5em;
 			}
-}
+		}
 
 		@media screen and (min-width: 500px) {
 			section > h2, h3, p {
@@ -583,8 +583,9 @@ button {
 
 					.logo_title h3 {
 						padding: 0;
+						margin-bottom: 0;
 					}
-				}
+			}
 
 /* MEDIA QUERIES TABLET */
 
@@ -605,6 +606,7 @@ button {
 				background: url('../images/bg-drky-1920w.jpg') center no-repeat #fff;
 				background-size: cover;
 			}
+		}
 		/* TYPOGRAPHY */
 
 			@media screen and (min-width: 768px) {
@@ -624,7 +626,7 @@ button {
 				}
 
 				p {
-					font-size: 1rem;
+					font-size: 1.4rem;
 					line-height: 1.5rem;
 				}
 			}
@@ -657,7 +659,7 @@ button {
 				border: 2px solid var(--font-color-drky);
 			}
 			.logo_nav {
-				width: 10%;
+				width: 8em;
 			}
 
 			.overlay_cont ul > li {
@@ -678,7 +680,7 @@ button {
 		.header_title {
 			text-align: left;
 
-			margin: 15em auto auto 4.5em;
+			margin: 20em auto auto 4.5em;
 			margin-right: auto;
 			width: 50%;
 			animation: slideLeft 1s ease-out, opacity 2s ease forwards;
@@ -725,7 +727,7 @@ button {
 			}
 
 			p {
-				font-size: 1.8rem;
+				font-size: 1.5rem;
 				line-height: 2.8rem;
 			}
 		}
