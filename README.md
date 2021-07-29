@@ -12,6 +12,33 @@ Our task was to build a five-page not-so-static webpage using HTML, CSS and Java
 
 One of the main requirements was to build some interactivity with JS, including but not limited to: micro interactions, UI designs, animations, and the main task: store some data in an array and retrieve it somewhere in the page (this can be located in the 'How to Use' page).
 
+## Features :metal:
+
+This project was built using the latest web development technologies, and also, for the visuals, Cinema 3D, After Effects and Adobe Premiere were put into work.
+
+### 3D Elements :moyai:
+	- All the bottles and 3D animations were built using Cinema 4D;
+
+### Visual Effects :clapper:
+	- Both videos present on the page were recorded, edited, colour graded and finished by me, on After Effects and Premiere.
+
+
+### Graphics :framed_picture:
+	- The Tide Brand and labels were drawn and vectorized from scratch.
+
+	- Background images were taken from a royalty-free source, edited, and customized to our necessities.
+
+### Animations :joystick:
+	- The basic animations were built with keyframes on css, such as svgs;
+	- Animations triggered on scroll were built using the AOS Library, authorized by Trevor Van Rys;
+		The code snippet is:
+		``` JavaScript
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+		  AOS.init();
+		</script>
+		```
+
 ## MIT Licence :page_with_curl:
 Copyright (c) 2021 Eduardo Schlichting
 
