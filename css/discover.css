@@ -12,6 +12,10 @@
 			margin: auto;
 		}
 
+.main_nav {
+	padding-top: 1.4em;
+}
+
 			#header-discover-video, #audioBtn {
 				display: none;
 			}
@@ -155,9 +159,7 @@
 		padding-top: 0;
 	}
 
-	.main_nav {
-		padding-top: 2em;
-	}
+	
 
 		#discover-video {
 			width: 65%;
