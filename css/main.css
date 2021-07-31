@@ -896,3 +896,10 @@ button {
 				margin: 22em auto auto 4.5em;
 			}
 		}
+
+		@media screen and (min-width: 1440px) {
+			/* We are original */
+			.header_title {
+				width: 80%;
+			}
+		}

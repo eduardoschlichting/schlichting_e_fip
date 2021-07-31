@@ -70,7 +70,7 @@ header {
 @media screen and (min-width: 1280px) {
 
 	.header_title {
-		margin: 16em auto 14em auto;
+		margin: 18em auto auto auto;
 	}
 
 	.story-box {
